@@ -16,8 +16,8 @@ jobs:
   build:
     strategy:
       matrix:
-        python-version: [3.x]
-    runs-on: macOS
+        python-version: [3.10.5]
+    runs-on: self-hosted
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
