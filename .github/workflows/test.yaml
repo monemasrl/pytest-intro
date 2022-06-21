@@ -41,4 +41,4 @@ jobs:
 
       - name: Run unit tests
         run: |
-          python -m pytest -v --import-mode=append
+          python -m pytest --import-mode=append
